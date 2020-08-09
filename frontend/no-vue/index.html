@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+    <h1>Teste Vue.js</h1>
+    <h1 id="msg">Essa é uma mensagem</h1>
+    <button id="btn">Mudar mensagem</button>
+
+    <script>
+        var btn = document.getElementById('btn');
+        btn.addEventListener('click', function() {
+
+            var msg = document.getElementById('msg');
+            msg.innerHTML = 'Nova mensagem';
+        });
+    </script>
+</body>
+</html>
